@@ -1,0 +1,26 @@
+body {
+
+}
+
+.col-md-2 {
+  background-color: red;
+}
+
+.col-md-4 {
+
+
+}
+
+img#phone {
+  width: 454px;
+  padding-top: 100px;
+}
+
+img#logo {
+  width: 175px;
+  padding-top: 50px;
+}
+
+main {
+  text-align: center;
+}
