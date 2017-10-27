@@ -1,26 +1,59 @@
 body {
-
+  background-color: #fafafa;
+  font-family: Arial;
 }
 
-.col-md-2 {
-  background-color: red;
+.col-md-1 {
+  background-color: #fafafa;
+}
+
+.col-md-5 {
+  background-color: #fafafa;
 }
 
 .col-md-4 {
-
-
+  background-color: #fafafa;
 }
 
-img#phone {
-  width: 454px;
+.col-md-2 {
+  background-color: #fafafa;
+}
+
+div.row {
+  background-color: #fafafa;
+}
+
+img#phone.center-box {
   padding-top: 100px;
 }
 
 img#logo {
   width: 175px;
   padding-top: 50px;
+  display: block;
+  margin: auto;
 }
 
 main {
   text-align: center;
+  background-color: white;
+  margin-top: 50px;
+}
+
+form {
+}
+
+div.form-group {
+  display: block;
+  margin: auto;
+  width: 258px;
+  padding: 0;
+}
+
+input#exampleInputEmail1.form-control {
+  margin: 10px 0px;
+  background-color: #fafafa;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: lightgray;
 }
