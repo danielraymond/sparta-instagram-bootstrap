@@ -48,6 +48,11 @@ img#logo {
   margin-bottom: 18px;
 }
 
+.fa-facebook-official {
+  font-size: 18px;
+  margin-right: 2px;
+}
+
 a.btn.btn-default {
   display: block;
   width: 250px;
@@ -107,4 +112,35 @@ input#exampleInputEmail1.form-control {
   width: 80%;
   line-height: 18px;
   margin-bottom: 40px;
+}
+
+.gap {
+  background-color: #fafafa;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.account {
+  text-align: center;
+  background-color: white;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.main-bottom {
+  background-color: #fafafa;
+  padding-top: 30px;
+}
+
+.get-the-app {
+  width: 100%;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.badges {
+  display: inline-block;
+  width: 146px;
+  height: 40px;
 }
