@@ -25,6 +25,8 @@ div.row {
 
 img#phone.center-box {
   padding-top: 100px;
+  margin-left: 28%;
+  margin-right: 72%;
 }
 
 main {
@@ -32,6 +34,7 @@ main {
   background-color: white;
   margin-top: 50px;
   width: 350px;
+  margin-left: 1%
 }
 
 img#logo {
@@ -143,4 +146,47 @@ input#exampleInputEmail1.form-control {
   display: inline-block;
   width: 146px;
   height: 40px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-left: 62px;
+  margin-right: 62px;
+  padding-bottom: 38px;
+}
+
+.footer-link {
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #003569;
+}
+
+.copyright {
+  display: inline-block;
+  float: right;
+  color: #999;
+  font-weight: normal;
+  width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  img#phone.center-box {
+    display: none;
+  }
+
+  main {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .copyright {
+    float: none;
+    margin-left: 50px;
+  }
+
 }
