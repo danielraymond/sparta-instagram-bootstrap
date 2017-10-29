@@ -31,6 +31,7 @@ main {
   text-align: center;
   background-color: white;
   margin-top: 50px;
+  width: 350px;
 }
 
 img#logo {
@@ -40,11 +41,22 @@ img#logo {
   margin: auto;
 }
 
+.photos-and-videos {
+  font-size: 17px;
+  width: 75%;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
 a.btn.btn-default {
   display: block;
-  width: 80%;
+  width: 250px;
   margin: auto;
   margin-bottom: 10px;
+  background-color: #3897f0;
+  color: white;
+  font-weight: 600;
+  padding: 3px 0px;
 }
 
 .or-line {
@@ -65,17 +77,12 @@ a.btn.btn-default {
 }
 
 p {
-  color: gray;
+  color: #999;
   font-size: 13px;
   display: inline-block;
   width: 10%;
   margin: 0;
   font-weight: 600;
-}
-
-.h3, h3 {
-  color: #999;
-  font-size: 13px;
 }
 
 form {
@@ -94,4 +101,10 @@ input#exampleInputEmail1.form-control {
   border-radius: 0px;
   border-width: 1px;
   border-color: lightgray;
+}
+
+.conditions {
+  width: 80%;
+  line-height: 18px;
+  margin-bottom: 40px;
 }
