@@ -27,17 +27,55 @@ img#phone.center-box {
   padding-top: 100px;
 }
 
-img#logo {
-  width: 175px;
-  padding-top: 50px;
-  display: block;
-  margin: auto;
-}
-
 main {
   text-align: center;
   background-color: white;
   margin-top: 50px;
+}
+
+img#logo {
+  width: 175px;
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+}
+
+a.btn.btn-default {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.or-line {
+  color: gray;
+  font-size: 13px;
+}
+
+.line {
+  height: 1px;
+  background-color: #c7c7c7;
+  width: 31%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  margin-right: 15px;
+  margin-left: 5%;
+
+}
+
+p {
+  color: gray;
+  font-size: 13px;
+  display: inline-block;
+  width: 10%;
+  margin: 0;
+  font-weight: 600;
+}
+
+.h3, h3 {
+  color: #999;
+  font-size: 13px;
 }
 
 form {
