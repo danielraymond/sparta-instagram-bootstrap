@@ -1,0 +1,192 @@
+body {
+  background-color: #fafafa;
+  font-family: Arial;
+}
+
+.col-md-1 {
+  background-color: #fafafa;
+}
+
+.col-md-5 {
+  background-color: #fafafa;
+}
+
+.col-md-4 {
+  background-color: #fafafa;
+}
+
+.col-md-2 {
+  background-color: #fafafa;
+}
+
+div.row {
+  background-color: #fafafa;
+}
+
+img#phone.center-box {
+  padding-top: 100px;
+  margin-left: 28%;
+  margin-right: 10px;
+}
+
+main {
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  width: 350px;
+  margin-left: 10px;
+}
+
+img#logo {
+  width: 175px;
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+}
+
+.photos-and-videos {
+  font-size: 17px;
+  width: 75%;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+.fa-facebook-official {
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+a.btn.btn-default {
+  display: block;
+  width: 250px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: #3897f0;
+  color: white;
+  font-weight: 600;
+  padding: 3px 0px;
+}
+
+.or-line {
+  color: gray;
+  font-size: 13px;
+}
+
+.line {
+  height: 1px;
+  background-color: #c7c7c7;
+  width: 31%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  margin-right: 15px;
+  margin-left: 5%;
+
+}
+
+p {
+  color: #999;
+  font-size: 13px;
+  display: inline-block;
+  width: 10%;
+  margin: 0;
+  font-weight: 600;
+}
+
+form {
+}
+
+div.form-group {
+  display: block;
+  margin: auto;
+  width: 258px;
+  padding: 0;
+}
+
+input#exampleInputEmail1.form-control {
+  margin: 10px 0px;
+  background-color: #fafafa;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.conditions {
+  width: 80%;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+
+.gap {
+  background-color: #fafafa;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.account {
+  text-align: center;
+  background-color: white;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.main-bottom {
+  background-color: #fafafa;
+  padding-top: 30px;
+}
+
+.get-the-app {
+  width: 100%;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.badges {
+  display: inline-block;
+  width: 146px;
+  height: 40px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 62px;
+  padding-bottom: 38px;
+}
+
+.footer-link {
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #003569;
+}
+
+.copyright {
+  display: inline-block;
+  float: right;
+  color: #999;
+  font-weight: normal;
+  width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  img#phone.center-box {
+    display: none;
+  }
+
+  main {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .copyright {
+    float: none;
+    margin-left: 50px;
+  }
+
+}
